@@ -25,7 +25,8 @@ public class App {
                 String className = "com.reflection.ex03"+"."+file.getName().replace(".class",""); // .class 를 공백으로 처리 .CLASS가 있으면 NEW 를 못함
                 Class cls = Class.forName(className);  
                 // 어노테이션이 있는지 확인
-                if (cls.isAnnotationPresent(Controller.class)){  
+                if (cls.isAnnotationPresent(Controller.class)){ 
+                    System.out.println("어노테이션이 있는 클래스 : " + file.getName());
                     Object instance = cls.newInstance(); // 객체 생성
                     instances.add(instance); 
                 }
