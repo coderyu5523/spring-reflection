@@ -1,0 +1,19 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.project.sourcePaths": ["src/main/java"],
+  "java.project.outputPath": "out",
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.inlayHints.parameterNames.enabled": "none",
+  "editor.inlayHints.enabled": "off",
+  "java.debug.settings.console": "integratedTerminal",
+  "java.debug.settings.vmArgs": "",
+  "java.debug.settings.showLogicalStructure": false,
+  "terminal.integrated.commandsToSkipShell": ["java.debug.runJavaFile"],
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  }
+}

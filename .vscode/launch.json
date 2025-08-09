@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "com.reflection.ex03.App",
+      "projectName": "reflection_44d6fae9"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "com.reflection.ex02.App",
+      "projectName": "reflection_44d6fae9"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "com.reflection.App",
+      "console": "integratedTerminal"
+    }
+  ]
+}
